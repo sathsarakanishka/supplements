@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SK Supplements</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div class="top-nav-left">
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="top-nav-right">
+                    <ul>
+                        <li><a href="">Watchlist</a></li>
+                        <li><a href="">Track Order</a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle-nav">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                    <h1>SK <span>Supplements</span></h1>
+                </div>
+                <div class="mid-nav-center">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#">Creatine</a></li>
+                                <li><a href="#">Protine</a></li>
+                                <li><a href="#">Pre-Workout</a></li>
+                                <li><a href="#">Multi-Viamins</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mid-nav-right">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-search" aria-hidden="true"></i></a></li>
+                        <li><a href="Sign up.html"><i class="fa-solid fa-user"></i></a></li>
+                        <li><a href="cart.html" id="cart-icon"><i class="fa-solid fa-cart-shopping"></i>(<span id="cart-count">0</span>)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <p>Sale Up  To 20% Biggest Discount. Harry! Limited Perriod Offer <a href="">Shop Now!</a></p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="slideshow">
+            <div class="wrapper">
+                <div class="wrapper-holder">
+                    <div id="slider-img-1"></div>
+                    <div id="slider-img-2"></div>
+                    <div id="slider-img-3"></div>
+                    <div id="slider-img-4"></div>
+                </div>
+            </div>
+            <div class="button-holder">
+                <button class="button" onclick="showSlide(0)"></button>
+                <button class="button" onclick="showSlide(1)"></button>
+                <button class="button" onclick="showSlide(2)"></button>
+                <button class="button" onclick="showSlide(3)"></button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

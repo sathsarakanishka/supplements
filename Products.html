@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" width="60px" height="60px">
+            </div>
+            <h1>SK Supplements</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <form class="search-form">
+                            <input type="text" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                        <li><a href="cart.html" id="cart-icon">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav2>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Sign up.html">Signup/Login</a></li>
+                <li class="close-btn" onclick="toggleMenu()">✖</li>
+            </ul>
+        </nav2>
+        <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    </header>
+    <script src="scripts.js"></script>
+</body>
+</html>
